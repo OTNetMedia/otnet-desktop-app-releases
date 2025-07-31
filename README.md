@@ -33,37 +33,61 @@ OTNet also includes a lightweight player and WordPress plugins to embed encoded 
 OTNet includes an entire suite of utilities to support your media processing needs:
 
 - **Encoding Tools**
-  - Audio & Video Converters
-  - Audio & Video Trimmers
-  - Audio & Video Combiners
-  - Audio & Video Inserters
-  - Media Normalization
-
-- **Streaming Tools**
-  - Create Media Delivery Stack (S3/CloudFront)
-  - Apply DRM Protection
-  - Stream Players (Local & Remote)
-  - Packager Switching (Shaka, Bento)
+  - Convert Audio To AAC Format  
+  - Convert Audio To MP3 Format  
+  - Convert Audio To WAV Format  
+  - Convert To Optimized MP4  
+  - Convert Video To WEBM  
 
 - **YouTube Tools**
-  - YouTube Downloader
-  - YouTube Audio-to-Video Generator
+  - YouTube Downloader  
+  - YouTube Audio To Video Generator  
 
-- **Subtitle & Metadata Tools**
-  - Audio Transcription Extractor
-  - JSON to SRT Converter
-  - SRT/VTT Caption Converter
-  - Add ID3 Metadata
+- **Media Editing Tools**
+  - Trim Audio  
+  - Combine Audio  
+  - Audio Inserter  
+  - Trim Video  
+  - Combine Videos  
+  - Video Inserter  
+  - Resize Video  
+  - Crop Video  
+  - Add Video Watermarks  
+  - Create BIF Thumbnails  
 
-- **Visual Tools**
-  - Create GIFs
-  - Create BIF Thumbnails
-  - Add Video Watermarks
-  - Image & Video Resizer/Cropper
-  - Time-lapsed Video Creator
+- **Image Tools**
+  - Resize Image  
+  - Crop Image  
+  - Create GIFs  
 
-- **Utilities**
-  - File Information Inspector
+- **Metadata & Audio Tools**
+  - Get Track BPM/Tempo  
+  - Add ID3 Metadata  
+  - Normalize Media  
+
+- **Subtitle & Text Track Tools**
+  - Extract .wav for Transcription  
+  - Convert Transcribe JSON to SRT  
+  - Convert SRT ↔ VTT  
+  - Open Subtitle Editor  
+
+- **AWS Tools**
+  - Enter AWS Credentials  
+  - Upload to AWS S3  
+  - Create Streaming Setup  
+
+- **Streaming Tools**
+  - Open Remote Stream  
+  - Open Local Stream  
+
+- **Database Tools**
+  - Local Encoded Media  
+  - Remote Encoded Media  
+
+- **Utility Tools**
+  - Show File Information  
+  - Create Testing Video  
+
 
 ---
 
@@ -77,7 +101,7 @@ OTNet includes an entire suite of utilities to support your media processing nee
 
 ## 📦 About This Repository
 
-This repository hosts **public releases** of the OTNet Desktop Encoder. You can download the latest `.pkg`, `.dmg`, or `.zip` files from the [Releases](https://github.com/YOUR-USERNAME/otnet-releases/releases) tab.
+This repository hosts **public releases** of the OTNet Desktop Encoder. You can download the latest `.pkg`, `.dmg`, or `.zip` files from the [Releases](https://github.com/OTNetMedia/otnet-desktop-app-releases/releases) tab.
 
 > Note: This repo does **not** contain the source code for OTNet — it is used solely for distributing official builds.
 
@@ -93,10 +117,10 @@ This repository hosts **public releases** of the OTNet Desktop Encoder. You can 
 
 ## 🚀 Get Started
 
-1. Download the latest OTNet release from the [Releases page](https://github.com/YOUR-USERNAME/otnet-releases/releases).
+1. Download the latest OTNet release from the [Releases page](https://github.com/OTNetMedia/otnet-desktop-app-releases/releases).
 2. Launch the app, sign in with Google, and start encoding.
 3. Need help? Full documentation is on the way!
 
 ---
 
-For updates and roadmap, visit **[otnet.io](https://otnet.io)** (coming soon).
+For updates and roadmap, visit **[otnet.io](https://otnet.io)** 
